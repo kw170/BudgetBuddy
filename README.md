@@ -1,2 +1,3 @@
-9/3/24
-First day working on project
+Front-End Technologies: React, Tailwind CSS, Shadcn UI, Next.js
+Back-End Technologies: Node.js
+Programming Languages/Tools: TypeScript
