@@ -14,11 +14,6 @@ export const sidebarLinks = [
     route: "/transaction-history",
     label: "Transaction History",
   },
-  {
-    imgURL: "/icons/money-send.svg",
-    route: "/payment-transfer",
-    label: "Transfer Funds",
-  },
 ];
 
 // good_user / good_password - Bank of America
