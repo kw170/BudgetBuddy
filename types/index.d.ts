@@ -89,7 +89,7 @@ declare type Bank = {
   accessToken: string;
   fundingSourceUrl: string;
   userId: string;
-  sharableId: string;
+  shareableId: string;
 };
 
 declare type AccountTypes =
@@ -264,6 +264,7 @@ declare interface getAccountsProps {
 declare interface getAccountProps {
   appwriteItemId: string;
 }
+
 
 declare interface getInstitutionProps {
   institutionId: string;
