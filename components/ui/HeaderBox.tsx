@@ -8,7 +8,7 @@ const HeaderBox = ( {type = "title", title, subtext,
         {title}
         {type === 'greeting' && (
           <span className="text-bankGradient">
-            &nbsp;{user}
+            &nbsp;{user}!
           </span>
         )}
         </h1>
