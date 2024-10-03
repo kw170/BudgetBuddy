@@ -6,7 +6,7 @@ import Image from 'next/image'
 const BankCard = ( { account, userName, showBalance = true}: CreditCardProps ) => {
   return (
     <div className="flex flex-col">
-      <Link href="/" className="bank-card">
+      <Link href="/" className="bank-card min-w-[320px]">
         <div className="bank-card_content">
           <div>
             <h1 className="text-16 font-semibold text-white">
@@ -26,7 +26,7 @@ const BankCard = ( { account, userName, showBalance = true}: CreditCardProps ) =
               </h2>
             </div>
             <p className="text-14 font-semibold tracking-[1.1px] text-white">
-              ●●●● ●●●● ●●●● <span className="text-16">1234</span>
+              ●●●● ●●●● ●●●● <span className="text-16">{account?.mask}</span>
             </p>
           </article>
         </div>

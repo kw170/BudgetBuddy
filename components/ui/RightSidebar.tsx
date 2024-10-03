@@ -4,6 +4,7 @@ import Image from 'next/image'
 import BankCard from './BankCard'
 
 const RightSidebar = ( {user, transactions, banks}: RightSidebarProps ) => {
+  console.log(user)
   return (
     <aside className="right-sidebar">
       <section className="flex flex-col pb-8">
